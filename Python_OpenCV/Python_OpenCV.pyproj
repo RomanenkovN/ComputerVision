@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>80598e87-665b-413a-9ce8-cb512d59f462</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>module1.py</StartupFile>
+    <StartupFile>Python_OpenCV_Test_Settings.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>C:\Users\ndrom\source\repos\Computer_Vision\Python_OpenCV</WorkingDirectory>
@@ -28,8 +28,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="module1.py" />
-    <Compile Include="OCR.py">
+    <Compile Include="Python_OpenCV_Test_Settings.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -37,9 +36,6 @@
     <InterpreterReference Include="CondaEnv|CondaEnv|Anaconda3" />
     <InterpreterReference Include="Global|PythonCore|2.7" />
     <InterpreterReference Include="Global|PythonCore|3.7" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Романенков Николай Дмитриевич.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
