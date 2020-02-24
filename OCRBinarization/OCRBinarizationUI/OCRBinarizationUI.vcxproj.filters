@@ -15,18 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="OCRBinarization.cpp">
+    <ClCompile Include="MyForm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="resource.h">
+    <ClInclude Include="MyForm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="OCRBinarization.rc">
+    <Image Include="0.jpg">
       <Filter>Resource Files</Filter>
-    </ResourceCompile>
+    </Image>
   </ItemGroup>
 </Project>

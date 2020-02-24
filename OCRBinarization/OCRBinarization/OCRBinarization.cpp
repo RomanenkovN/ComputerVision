@@ -8,6 +8,9 @@ const int GREEN_MIN = 21;
 const int GREEN_MAX = 110;
 
 void main(int argc, char** argv) {
+
+	file1->Filter = "(*.jpg)|*.jpg";
+
 	Mat src = imread("testImages\\4.jpg"); //Исходное изображение
 
 	imshow("input", src);
